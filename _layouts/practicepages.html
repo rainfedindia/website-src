@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="post">
+
+  <div class="m2-menu menu2">
+    <ul>
+      <li><a href="{{ site.baseurl }}/thematic_focus">Thematic Focus</a></li>
+      <li class="last"><a href="{{ site.baseurl }}/cp">Comprehensive Pilots</a></li>
+  	</ul>
+  </div>
+
+  <div class="post-wrapper">
+	  <header class="post-header">
+	    <h1 class="post-title">{{ page.title }}</h1>
+	  </header>
+
+	  <article class="post-content">
+	    {{ content }}
+	  </article>
+  </div>
+
+  {% include sidebar.html %}
+
+</div>

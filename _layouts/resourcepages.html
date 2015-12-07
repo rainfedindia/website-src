@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="post">
+
+  <div class="m5-menu menu2">
+  	<ul>
+  		<li><a href="{{ site.baseurl }}/seeds_resources">Seeds</a></li>
+  		<li><a href="{{ site.baseurl }}/soil_resources">Soils</a></li>
+      <li><a href="{{ site.baseurl }}/water_resources">Water</a></li>
+      <li><a href="{{ site.baseurl }}/millet_resources">Millet</a></li>
+      <li><a href="{{ site.baseurl }}/fisheries_resources">Fisheries</a></li>
+      <li class="last"><a href="{{ site.baseurl }}/livestock_resources">Livestock</a></li>
+    </ul>
+  </div>
+
+  <div class="post-wrapper">
+	  <header class="post-header">
+	    <h1 class="post-title">{{ page.title }}</h1>
+	  </header>
+
+	  <article class="post-content">
+	    {{ content }}
+	  </article>
+  </div>
+
+  {% include sidebar.html %}
+
+</div>
